@@ -11,8 +11,6 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, params=querystring)
 
-<<<<<<< HEAD
+
 #print(response.text)
-=======
-#print(response.text)
->>>>>>> 0feb046677480b82d172cdfff9d4005509e802c3
+
