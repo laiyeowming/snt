@@ -1,6 +1,4 @@
-# snt v0.1  
+# snt v1.1  
 
 ## Need to come up with a application to demo GH Action
-- Provide an working example.
-- Practice GH Action.
-- Implement docker?
+- Success in Telegram Bot, os.getenv is not working..
