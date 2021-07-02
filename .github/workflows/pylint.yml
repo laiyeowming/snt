@@ -23,11 +23,3 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
-        
-    - name: Build and Push Docker Image
-    - uses: mr-smithers-excellent/docker-build-push@v5
-      with:
-        image: snt/telebot
-        registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
