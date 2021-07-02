@@ -1,3 +1,5 @@
+""" .py for first telegram bot"""
+
 import telebot
 
 TOKEN = '1790716225:AAHSdpfgFMSX7dlCVgBuu_gZyNu-LYeo0ng'
