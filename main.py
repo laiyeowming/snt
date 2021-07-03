@@ -11,4 +11,9 @@ def send_welcome(message):
     '''returns msg from /hello and /help'''
     bot.reply_to(message, "Howdy, how are you doing?")
 
+@bot.message_handler(func=lambda message: True)
+
+def echo_all(message):
+	bot.reply_to(message, "Sorry, please repeat.")
+
 bot.polling()
