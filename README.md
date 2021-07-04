@@ -1,6 +1,14 @@
-# snt v1.1  
+## Telegram bot .py for snt
+**Using Telegram, users can interact with bots using commands.
+**
 
-## Need to come up with a application to demo GH Action
+### 1. Get Source
+
+### 2. Make Changes
+
+### 3. Build Container
+
+### 4. Run Container
 - Success in Telegram Bot, os.getenv is not working..
 
 - Docker image.
