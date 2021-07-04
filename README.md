@@ -1,8 +1,14 @@
-# snt v1.1  
+## Telegram bot .py for snt
+__Using Telegram, users can interact with bots using commands.__
 
-## Need to come up with a application to demo GH Action
-- Success in Telegram Bot, os.getenv is not working..
+### 1. Get Source
+`git clone https://github.com/laiyeowming/snt.git`
 
-- Docker image.
+### 2. Make Changes
+modify main.py or simply build your telegram bot with reference from **https://core.telegram.org/bots**.
 
-- Pylint for Python 3 helps raise the code quality of Python programs. Learn how to use Pylint with some real-world examples.
+### 3. Build Container
+`docker build . -t telebot`
+
+### 4. Run Container
+`docker run telebot`
