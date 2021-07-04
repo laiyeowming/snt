@@ -1,5 +1,6 @@
 ## Telegram bot .py for snt
-__Using Telegram, users can interact with bots using commands.__
+Using Telegram, users can interact with bots using commands.
+![](images/filename%20delbot.png)
 
 ### 1. Get Source
 `git clone https://github.com/laiyeowming/snt.git`
