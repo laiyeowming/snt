@@ -4,4 +4,4 @@ ADD main.py .
 
 RUN pip install pyTelegramBotAPI
 
-CMD python3 main.py
+CMD [ "python3", "main.py" ]
