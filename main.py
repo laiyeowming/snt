@@ -2,7 +2,7 @@
 
 import telebot
 
-TOKEN = '1790716225:AAHSdpfgFMSX7dlCVgBuu_gZyNu-LYeo0ng'
+TOKEN = ${{ secrets.SecretToken }}
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['hello', 'help'])
